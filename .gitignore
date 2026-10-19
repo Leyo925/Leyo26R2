@@ -1,0 +1,24 @@
+# ==== Keil MDK-ARM 编译输出与自动生成文件 ====
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/Leyo26R2/
+MDK-ARM/*.lst
+MDK-ARM/*.uvguix.*
+
+# ==== 编译中间产物（跨目录通用） ====
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.map
+*.lnp
+*.sct
+*.iex
+*.dep
+
+# ==== 系统 / 编辑器文件 ====
+Thumbs.db
+Desktop.ini
+.DS_Store
